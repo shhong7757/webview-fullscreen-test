@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <>
-      <p> div > div > video </p>
+    <div>
+      <p> {"div > div > video"} </p>
       <span />
       <div>
         <div>
@@ -17,7 +17,7 @@ export default function Home() {
       </div>
       <div />
       <span />
-      <p> div > figure > video </p>
+      <p> {"div > figure > video"} </p>
       <div>
         <figure>
           <video
@@ -30,6 +30,6 @@ export default function Home() {
           />
         </figure>
       </div>
-    </>
+    </div>
   );
 }
